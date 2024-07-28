@@ -13,8 +13,8 @@ func (h MinHeap) Swap(i, j int) {
 	h[i], h[j] = h[j], h[i]
 }
 
-// Insert new node to the heap
-func (h *MinHeap) InsertNode(data int) {
+// Insert to the heap
+func (h *MinHeap) Insert(data int) {
 	*h = append(*h, data)
 	h.PrelocateUp()
 }

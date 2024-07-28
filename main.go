@@ -1,27 +1,21 @@
 package main
 
-import (
-	"fmt"
-
-	"github.com/moabdelazem/Go-Data-Structures/heap"
-)
-
 func main() {
 	// Testing The Heap
-	var minHeap heap.MinHeap
+	// var minHeap heap.MinHeap
 
-	minHeap.InsertNode(9)
-	minHeap.InsertNode(31)
-	minHeap.InsertNode(40)
-	minHeap.InsertNode(22)
-	minHeap.InsertNode(10)
-	minHeap.InsertNode(15)
-	minHeap.InsertNode(1)
-	minHeap.InsertNode(25)
-	minHeap.InsertNode(91)
+	// minHeap.Insert(9)
+	// minHeap.Insert(31)
+	// minHeap.Insert(40)
+	// minHeap.Insert(22)
+	// minHeap.Insert(10)
+	// minHeap.Insert(15)
+	// minHeap.Insert(1)
+	// minHeap.Insert(25)
+	// minHeap.Insert(91)
 
-	fmt.Println(minHeap)
+	// fmt.Println(minHeap)
 
-	minHeap.Delete()
-	fmt.Println(minHeap)
+	// minHeap.Delete()
+	// fmt.Println(minHeap)
 }
